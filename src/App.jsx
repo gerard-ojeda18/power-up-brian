@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
+
 
 // Colores de la paleta
 const colors = {
@@ -263,9 +265,9 @@ function About() {
             style={{ backgroundColor: colors.midnight }}
           >
             <img
-              src="/power-up.jpg"
-              alt="PowerUp Logo"
-              className="w-3/4 h-auto object-contain opacity-90"
+              src="/entrenamiento.webp"
+              alt="Entrenamiento"
+              className="w-full h-auto object-cover opacity-90"
             />
           </div>
           <div>
@@ -462,73 +464,159 @@ function Testimonials() {
 }
 
 // Componente Contact (WhatsApp)
+const container = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.12,
+    },
+  },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 25 },
+  show: { opacity: 1, y: 0 },
+};
+
 function Contact() {
-  const whatsappNumber = "5491123456789"; // Reemplazar con el numero real
-  const whatsappMessage = encodeURIComponent(
-    "Hola Brian! Me interesa conocer mas sobre tus servicios de entrenamiento personal."
-  );
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  const [form, setForm] = useState({
+    name: "",
+    goal: "",
+    level: "",
+    availability: "",
+  });
+
+  const whatsappNumber = "5491153452005";
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const message = encodeURIComponent(
+      `🔥 Nuevo contacto PowerUp 🔥\n\n` +
+      `👤 Nombre: ${form.name}\n` +
+      `🎯 Objetivo: ${form.goal}\n` +
+      `💪 Nivel: ${form.level}\n` +
+      `⏱ Disponibilidad: ${form.availability}`
+    );
+
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+  };
 
   return (
-    <section id="contacto" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-          className="rounded-3xl p-8 md:p-16 text-center text-white relative overflow-hidden"
-          style={{ backgroundColor: colors.midnight }}
+    <section
+      id="contacto"
+      className="min-h-screen flex items-center justify-center px-4"
+      style={{ backgroundColor: colors.midnight }}
+    >
+      <motion.div
+        variants={container}
+        initial="hidden"
+        animate="show"
+        className="w-full max-w-md bg-white rounded-[32px] p-8 shadow-2xl"
+      >
+        {/* Badge */}
+        <motion.span
+          variants={item}
+          className="inline-block mb-4 px-4 py-1 rounded-full text-sm font-semibold text-white"
+          style={{ backgroundColor: colors.ocean }}
         >
-          {/* Background pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <div
-              className="absolute top-0 right-0 w-96 h-96 rounded-full blur-3xl"
-              style={{ backgroundColor: colors.ocean }}
-            />
-            <div
-              className="absolute bottom-0 left-0 w-72 h-72 rounded-full blur-3xl"
-              style={{ backgroundColor: colors.ocean }}
-            />
-          </div>
-          <div className="relative z-10">
-            <span
-              className="inline-block px-4 py-1.5 rounded-full text-sm font-medium mb-6"
-              style={{ backgroundColor: `${colors.ocean}30`, color: "#fff" }}
-            >
-              Contacto
-            </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
-              Empeza tu transformacion hoy
-            </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
-              Escribime por WhatsApp y agenda tu primera consulta gratuita. 
-              Estoy listo para ayudarte a alcanzar tus metas.
-            </p>
-            <a
-              href="https://wa.me/5491153452005"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-10 py-5 rounded-xl text-white font-bold text-lg transition-all hover:scale-105 hover:shadow-2xl"
-              style={{ backgroundColor: "#25D366" }}
-            >
-              <WhatsAppIcon className="w-7 h-7" />
-              Contactar por WhatsApp
-            </a>
-            <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-8 text-gray-300">
-              <div className="flex items-center gap-2">
-                <LocationIcon className="w-5 h-5" />
-                <span>Buenos Aires, Argentina</span>
-              </div>
-              <a
-                href="https://www.instagram.com/_brian_bclio/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-white transition-colors"
-              >
-                <InstagramIcon className="w-5 h-5" />
-                <span>@powerup_brian</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+          Coaching Personalizado
+        </motion.span>
+
+        {/* Title */}
+        <motion.h2
+          variants={item}
+          className="text-3xl font-extrabold mb-3 leading-tight"
+        >
+          Transformá tu cuerpo <br /> y tu disciplina
+        </motion.h2>
+
+        {/* Subtitle */}
+        <motion.p
+          variants={item}
+          className="text-gray-600 mb-8"
+        >
+          Entrenamiento 100% adaptado a tu nivel, objetivos y rutina.
+        </motion.p>
+
+        {/* Form */}
+        <motion.form
+          variants={container}
+          onSubmit={handleSubmit}
+          className="space-y-5"
+        >
+          <motion.input
+            variants={item}
+            whileFocus={{ scale: 1.02 }}
+            type="text"
+            name="name"
+            required
+            placeholder="¿Cómo te llamás?"
+            onChange={handleChange}
+            className="w-full px-4 py-4 rounded-2xl border border-gray-200 focus:outline-none focus:border-black"
+          />
+
+          <motion.input
+            variants={item}
+            whileFocus={{ scale: 1.02 }}
+            type="text"
+            name="goal"
+            required
+            placeholder="Objetivo: (Ej: Bajar grasa)"
+            onChange={handleChange}
+            className="w-full px-4 py-4 rounded-2xl border border-gray-200 focus:outline-none focus:border-black"
+          />
+
+          <motion.select
+            variants={item}
+            name="level"
+            required
+            onChange={handleChange}
+            className="w-full px-4 py-4 rounded-2xl border border-gray-200 focus:outline-none focus:border-black text-gray-700"
+          >
+            <option value="">Nivel de entrenamiento</option>
+            <option>Principiante</option>
+            <option>Intermedio</option>
+            <option>Avanzado</option>
+          </motion.select>
+
+          <motion.select
+            variants={item}
+            name="availability"
+            required
+            onChange={handleChange}
+            className="w-full px-4 py-4 rounded-2xl border border-gray-200 focus:outline-none focus:border-black text-gray-700"
+          >
+            <option value="">¿Cuántos días podés entrenar?</option>
+            <option>2–3 veces por semana</option>
+            <option>4–5 veces por semana</option>
+            <option>Todos los días</option>
+          </motion.select>
+
+          <motion.button
+            variants={item}
+            whileTap={{ scale: 0.95 }}
+            whileHover={{ scale: 1.03 }}
+            type="submit"
+            className="w-full py-5 rounded-2xl font-extrabold text-lg text-white shadow-xl"
+            style={{ backgroundColor: "#25D366" }}
+          >
+            Quiero empezar ahora 🚀
+          </motion.button>
+        </motion.form>
+
+        {/* Trust text */}
+        <motion.p
+          variants={item}
+          className="text-xs text-center text-gray-400 mt-6"
+        >
+          Respuesta rápida • Cupos limitados • Atención personalizada
+        </motion.p>
+      </motion.div>
     </section>
   );
 }
