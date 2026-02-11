@@ -494,7 +494,7 @@ function Contact() {
     e.preventDefault();
 
     const message = encodeURIComponent(
-      `🔥 Nuevo contacto PowerUp 🔥\n\n` +
+      `Hola, que tal ? 🔥 Nuevo contacto PowerUp 🔥\n\n` +
       `👤 Nombre: ${form.name}\n` +
       `🎯 Objetivo: ${form.goal}\n` +
       `💪 Nivel: ${form.level}\n` +
