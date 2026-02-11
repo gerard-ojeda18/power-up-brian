@@ -183,29 +183,42 @@ function Header() {
 }
 
 // Componente Hero
-function Hero() {
+       function Hero() {
   return (
-    <section id="inicio" className="min-h-screen flex items-center pt-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+    <section
+      id="inicio"
+      className="relative min-h-screen flex items-center pt-20 
+             bg-[url('/power-up.jpg')] 
+             bg-cover bg-center 
+             md:bg-[length:60%] md:bg-right md:bg-no-repeat"
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/70"></div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="order-2 md:order-1 text-center md:text-left">
+          
+          <div className="text-center md:text-left">
             <span
               className="inline-block px-4 py-1.5 rounded-full text-sm font-medium mb-6"
               style={{ backgroundColor: `${colors.ocean}20`, color: colors.ocean }}
             >
               Personal Trainer Certificado
             </span>
+
             <h1
-              className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance"
+              className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6"
               style={{ color: colors.midnight }}
             >
               Transforma tu cuerpo con{" "}
               <span style={{ color: colors.ocean }}>Brian Perez</span>
             </h1>
+
             <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
-              Entrenamiento personalizado diseñado para alcanzar tus metas. Juntos construiremos 
-              la mejor version de vos mismo.
+              Entrenamiento personalizado diseñado para alcanzar tus metas.
+              Juntos construiremos la mejor version de vos mismo.
             </p>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
                 href="#contacto"
@@ -215,6 +228,7 @@ function Hero() {
                 <WhatsAppIcon className="w-5 h-5" />
                 Contactame
               </a>
+
               <a
                 href="#servicios"
                 className="px-8 py-4 rounded-lg font-semibold text-lg transition-all hover:bg-gray-100 border-2 inline-flex items-center justify-center"
@@ -224,29 +238,13 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className="order-1 md:order-2 flex justify-center">
-            <div
-              className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full flex items-center justify-center"
-              style={{ backgroundColor: `${colors.midnight}10` }}
-            >
-              <img
-                src="/power-up.jpg"
-                alt="PowerUp - Brian Perez"
-                className="w-4/5 h-4/5 object-contain"
-              />
-              <div
-                className="absolute -top-4 -right-4 w-20 h-20 rounded-full flex items-center justify-center text-white font-bold text-sm text-center"
-                style={{ backgroundColor: colors.ocean }}
-              >
-                +5 años exp.
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
   );
 }
+
 
 // Componente About
 function About() {
