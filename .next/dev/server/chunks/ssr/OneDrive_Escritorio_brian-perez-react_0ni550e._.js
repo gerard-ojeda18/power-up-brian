@@ -732,14 +732,14 @@ function AnimatedCounter({ end, suffix, label }) {
 }
 const stats = [
     {
-        end: 500,
+        end: 30,
         suffix: "+",
         label: "Clientes Satisfechos"
     },
     {
         end: 5,
         suffix: "+",
-        label: "Anios de Experiencia"
+        label: "Años de Experiencia"
     },
     {
         end: 100,

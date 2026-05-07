@@ -49,8 +49,8 @@ function AnimatedCounter({ end, suffix, label }: CounterProps) {
 }
 
 const stats = [
-  { end: 500, suffix: "+", label: "Clientes Satisfechos" },
-  { end: 5, suffix: "+", label: "Anios de Experiencia" },
+  { end: 30, suffix: "+", label: "Clientes Satisfechos" },
+  { end: 5, suffix: "+", label: "Años de Experiencia" },
   { end: 100, suffix: "%", label: "Compromiso" },
 ];
 
