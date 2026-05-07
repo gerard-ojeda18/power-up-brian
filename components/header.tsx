@@ -40,14 +40,17 @@ export default function Header() {
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between md:h-20">
-          <Link href="#inicio" className="flex items-center gap-2">
-          <span className="text-2xl font-extrabold tracking-tight text-white">
-            Power<span style={{ color: "#5B88B2" }}>Up</span>
-          </span>
-          <span className="text-xs font-medium tracking-widest text-white/50 hidden sm:block">
-           MEJORANDO JUNTOS
-          </span>
-          </Link>
+         <Link href="#inicio" className="flex items-center">
+          <div className="rounded-xl bg-white/10 p-2">
+           <Image
+               src="/power-up.png"
+               alt="PowerUp Logo"
+               width={100}
+               height={100}
+               className="h-12 w-auto md:h-14"
+               />
+           </div>
+           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden items-center gap-8 md:flex">

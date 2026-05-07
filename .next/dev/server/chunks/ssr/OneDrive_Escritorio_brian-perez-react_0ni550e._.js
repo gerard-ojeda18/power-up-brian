@@ -8,7 +8,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 function Preloader() {
@@ -41,46 +43,21 @@ function Preloader() {
                         repeat: Infinity,
                         ease: "easeInOut"
                     },
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-5xl font-extrabold tracking-tight text-white",
-                        children: [
-                            "Power",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                style: {
-                                    color: "#5B88B2"
-                                },
-                                children: "Up"
-                            }, void 0, false, {
-                                fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-                                lineNumber: 26,
-                                columnNumber: 18
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                    className: "flex flex-col items-center gap-3",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        src: "/power-up.png",
+                        alt: "PowerUp Logo",
+                        width: 180,
+                        height: 180,
+                        priority: true
+                    }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-                        lineNumber: 25,
+                        lineNumber: 21,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
-                    initial: {
-                        opacity: 0
-                    },
-                    animate: {
-                        opacity: 1
-                    },
-                    transition: {
-                        delay: 0.3
-                    },
-                    className: "mt-2 text-xs tracking-widest text-white/40 uppercase",
-                    children: "Mejorando Juntos"
-                }, void 0, false, {
-                    fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-                    lineNumber: 31,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -103,23 +80,23 @@ function Preloader() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-                        lineNumber: 42,
+                        lineNumber: 32,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-                    lineNumber: 41,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-            lineNumber: 8,
+            lineNumber: 9,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/preloader.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -137,8 +114,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$br
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/lucide-react/dist/esm/icons/menu.mjs [app-ssr] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/lucide-react/dist/esm/icons/x.mjs [app-ssr] (ecmascript) <export default as X>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/OneDrive/Escritorio/brian-perez-react/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -195,41 +174,29 @@ function Header() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "#inicio",
-                            className: "flex items-center gap-2",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-2xl font-extrabold tracking-tight text-white",
-                                    children: [
-                                        "Power",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                color: "#5B88B2"
-                                            },
-                                            children: "Up"
-                                        }, void 0, false, {
-                                            fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                            lineNumber: 45,
-                                            columnNumber: 18
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                    lineNumber: 44,
-                                    columnNumber: 11
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-xs font-medium tracking-widest text-white/50 hidden sm:block",
-                                    children: "MEJORANDO JUNTOS"
+                            className: "flex items-center",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "rounded-xl bg-white/10 p-2",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/power-up.png",
+                                    alt: "PowerUp Logo",
+                                    width: 100,
+                                    height: 100,
+                                    className: "h-12 w-auto md:h-14"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                    lineNumber: 47,
-                                    columnNumber: 11
+                                    lineNumber: 45,
+                                    columnNumber: 12
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
+                                lineNumber: 44,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
                             lineNumber: 43,
-                            columnNumber: 11
+                            columnNumber: 10
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "hidden items-center gap-8 md:flex",
@@ -240,7 +207,7 @@ function Header() {
                                         children: link.label
                                     }, link.href, false, {
                                         fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 58,
                                         columnNumber: 15
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -249,13 +216,13 @@ function Header() {
                                     children: "Empezar Ahora"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                            lineNumber: 53,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -266,18 +233,18 @@ function Header() {
                                 className: "h-6 w-6"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                lineNumber: 77,
+                                lineNumber: 80,
                                 columnNumber: 27
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 className: "h-6 w-6"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                lineNumber: 77,
+                                lineNumber: 80,
                                 columnNumber: 55
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                            lineNumber: 72,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     ]
@@ -311,7 +278,7 @@ function Header() {
                                         children: link.label
                                     }, link.href, false, {
                                         fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 95,
                                         columnNumber: 19
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -321,23 +288,23 @@ function Header() {
                                     children: "Empezar Ahora"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 104,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                            lineNumber: 90,
+                            lineNumber: 93,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                        lineNumber: 84,
+                        lineNumber: 87,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/header.tsx",
-                    lineNumber: 82,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, this)
             ]
