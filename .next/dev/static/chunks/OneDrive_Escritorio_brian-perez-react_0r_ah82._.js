@@ -198,7 +198,7 @@ function Header() {
         transition: {
             duration: 0.5
         },
-        className: `fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 shadow-lg shadow-black/20 backdrop-blur-md" : "bg-transparent"}`,
+        className: `fixed left-0 right-0 top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "bg-background/95 shadow-lg shadow-black/20 backdrop-blur-md" : "bg-transparent"}`,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
             className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8",
             children: [
@@ -293,7 +293,7 @@ function Header() {
                             opacity: 0,
                             height: 0
                         },
-                        className: "overflow-hidden border-t border-border md:hidden",
+                        className: "w-full overflow-hidden border-t border-border md:hidden",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col gap-4 py-4",
                             children: [
@@ -520,7 +520,7 @@ function Hero() {
                                     delay: 0.2
                                 },
                                 className: "mx-auto mb-8 max-w-lg text-lg leading-relaxed text-muted-foreground md:mx-0",
-                                children: "Entrenamiento personalizado disenado para alcanzar tus metas. Juntos construiremos la mejor version de vos mismo. Siempre juntos"
+                                children: "Entrenamiento personalizado disenado para alcanzar tus metas. Juntos construiremos la mejor version de vos mismo."
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/hero.tsx",
                                 lineNumber: 74,
@@ -873,7 +873,7 @@ function About() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mb-6 leading-relaxed text-muted-foreground",
-                                children: "Soy Brian Perez, entrenador personal certificado con mas de 5 anos de experiencia ayudando a personas a transformar sus vidas a traves del fitness. Mi filosofia se basa en el acompanamiento constante y la personalizacion de cada plan de entrenamiento."
+                                children: "Soy Brian Perez, entrenador personal certificado con mas de 5 años de experiencia ayudando a personas a transformar sus vidas a través del fitness. Mi filosofía se basa en el acompanamiento constante y la personalización de cada plan de entrenamiento."
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/about.tsx",
                                 lineNumber: 98,
@@ -1742,7 +1742,7 @@ function Contact() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                     value: "",
-                                    children: "Cuantos dias podes entrenar?"
+                                    children: "Cuantos días podes entrenar?"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/contact.tsx",
                                     lineNumber: 135,
@@ -1765,8 +1765,8 @@ function Contact() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Escritorio$2f$brian$2d$perez$2d$react$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                    value: "Todos los dias",
-                                    children: "Todos los dias"
+                                    value: "Todos los días",
+                                    children: "Todos los días"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Escritorio/brian-perez-react/components/contact.tsx",
                                     lineNumber: 138,

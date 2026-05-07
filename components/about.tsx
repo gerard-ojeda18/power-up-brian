@@ -96,10 +96,10 @@ export default function About() {
             </h2>
 
             <p className="mb-6 leading-relaxed text-muted-foreground">
-              Soy Brian Perez, entrenador personal certificado con mas de 5 anos
+              Soy Brian Perez, entrenador personal certificado con mas de 5 años
               de experiencia ayudando a personas a transformar sus vidas a
-              traves del fitness. Mi filosofia se basa en el acompanamiento
-              constante y la personalizacion de cada plan de entrenamiento.
+              través del fitness. Mi filosofía se basa en el acompanamiento
+              constante y la personalización de cada plan de entrenamiento.
             </p>
 
             <p className="mb-8 leading-relaxed text-muted-foreground">

@@ -32,7 +32,7 @@ export default function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
+      className={`fixed left-0 right-0 top-0 z-50 w-full transition-all duration-300 ${
         isScrolled
           ? "bg-background/95 shadow-lg shadow-black/20 backdrop-blur-md"
           : "bg-transparent"
@@ -86,7 +86,7 @@ export default function Header() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="overflow-hidden border-t border-border md:hidden"
+              className="w-full overflow-hidden border-t border-border md:hidden"
             >
               <div className="flex flex-col gap-4 py-4">
                 {navLinks.map((link) => (

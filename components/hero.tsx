@@ -78,7 +78,7 @@ export default function Hero() {
               className="mx-auto mb-8 max-w-lg text-lg leading-relaxed text-muted-foreground md:mx-0"
             >
               Entrenamiento personalizado disenado para alcanzar tus metas. 
-              Juntos construiremos la mejor version de vos mismo. Siempre juntos
+              Juntos construiremos la mejor version de vos mismo.
             </motion.p>
 
             <motion.div

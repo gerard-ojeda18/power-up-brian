@@ -132,10 +132,10 @@ export default function Contact() {
             onChange={handleChange}
             className="w-full rounded-2xl border border-border bg-secondary px-4 py-4 text-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
           >
-            <option value="">Cuantos dias podes entrenar?</option>
+            <option value="">Cuantos días podes entrenar?</option>
             <option value="2-3 veces por semana">2-3 veces por semana</option>
             <option value="4-5 veces por semana">4-5 veces por semana</option>
-            <option value="Todos los dias">Todos los dias</option>
+            <option value="Todos los días">Todos los días</option>
           </motion.select>
 
           <motion.button
